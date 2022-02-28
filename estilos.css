@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;    
+}
+h2 {
+    font: bold 14px 'Times New Roman', Times, serif;
+   }
+
+   header, section, footer, aside, nav, article, hgroup{
+       display: block;
+   }
+   body {
+       text-align: center;
+       background-color: #999;
+   }
+.agrupar {
+    background-color: bisque;
+    width: 960px;
+    margin: 20px auto;
+    /* padding: 20px;
+    border: 1px solid black;*/
+}
+.cabecera {
+    background-color: #f9dc58;
+    border: 1px solid #eee982;
+    padding: 20px;
+    /*color-hex.com  --> paletas de colores de la web
+    flatuicolors.com
+    */
+}
+.menu {
+    background-color: #eee982;
+    padding: 5px 15px;
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font-size: bold 14px 'Times New Roman', Times, serif;
+    border: 1px solid none;
+    display: inline-block;
+}
+.seccion {
+    /*diseño web responsive*/
+    margin: 10px; 
+    width: 60%;   
+    float: left; 
+    /*border: 1px solid black; 
+    background-color: #eee982;*/    
+}
+
+article {
+    background-color: #fffbcc;
+    border: 1px solid none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+time {
+    color: #999;
+}
+article footer {
+    /*text-align: left; Izquierda
+    text-align: right; derecha*/
+    text-align: right;
+    margin-top: 10px;
+}
+
+.columna2 {
+    margin: 10px 0;
+    width: 33.2%;
+    /*border: 1px solid black;
+    background-color: #eee982;*/
+    float: left;
+}
+.columna2 blockquote {
+    border: 1px solid none;
+    padding: 40px;
+    background-color: #fffbb9;
+    margin-bottom: 20px;
+}
+.pie {
+    clear: both;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #2d3436;
+}
+
+img {
+    width: 100px;
+    display:block;
+    margin: 20px auto;
+}
